@@ -23,6 +23,7 @@ O site inclui:
 - Carrinho recolhido no celular para nao cobrir o cardapio;
 - Busca e filtros por categoria;
 - Etiquetas de produto e preco promocional via banco;
+- Upload de fotos direto pelo painel, sem colar URL;
 - Campo de nome e endereco;
 - Pedido montado e enviado pelo WhatsApp (92) 99325-0320;
 - Combo especial por R$ 45,00.
@@ -30,7 +31,7 @@ O site inclui:
 ## Supabase
 
 1. Crie um projeto no Supabase.
-2. Execute o arquivo `supabase-schema.sql` no SQL Editor.
+2. Execute o arquivo `supabase-schema.sql` no SQL Editor. Ele cria a tabela de produtos, o bucket de imagens e as politicas de acesso.
 3. Crie um usuario em Authentication > Users para acessar o painel.
 4. Copie `.env.example` para `.env.local` e preencha a URL e a chave anon.
 5. Abra `/#admin` para cadastrar produtos. Todo produto novo comeca como rascunho e so aparece ao publica-lo.
