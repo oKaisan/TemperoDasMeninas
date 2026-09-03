@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ArrowRight, Check, ChevronDown, Eye, EyeOff, LockKeyhole, Minus, Plus, Search, ShoppingBag, Trash2, X } from 'lucide-react';
 import { supabase, isSupabaseConfigured } from './supabaseClient';
 import logoImage from '../imagens/logo.jpeg';
-import menuImage from '../imagens/cardapio.jpeg';
+import menuImage from '../imagens/cardapio-cropped.jpeg';
 import carneImage from '../imagens/carne.jpeg';
 import macarroneseImage from '../imagens/macarronese.jpeg';
 import mousseMaracujaImage from '../imagens/mousse1.jpeg';
